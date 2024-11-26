@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    background: url(image.png)
+}
+.container{
+    width: 600px;
+    height: 500px;
+}
+.header{
+    position: relative;
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 4px;
+}
+.maincontent{
+    background-color: black;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.quote{
+    color: white;
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.person{
+    color:yellow;
+    background-color: black;
+    width: fit-content;
+    margin: 10px auto;
+}
+.buttonquote{
+    padding: 15px;
+}
+.butn{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px ;
+}
